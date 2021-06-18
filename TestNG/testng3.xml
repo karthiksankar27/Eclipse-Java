@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Smoke" /> <!-- Here we are executing only the group which has tag name Smoke
+				and we can exclude also -->
+			</run>
+		</groups>
+		<classes>
+			<class name="udemy.test1" />
+			<class name="udemy.test2" />
+			<class name="udemy.Loans" />
+			<class name="udemy.Loans1" />
+
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->
