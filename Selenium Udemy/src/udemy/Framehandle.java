@@ -29,6 +29,9 @@ public class Framehandle {
 		WebElement destination = driver.findElement(By.id("droppable"));
 		a.dragAndDrop(source, destination).build().perform();
 		
+		
+	
+		
 		driver.switchTo().defaultContent();// this is important -- because after finshing the work in frame and we need to click anything outside the frame
 		// we need to tell the driver to switch to the page from the frame
 	}
